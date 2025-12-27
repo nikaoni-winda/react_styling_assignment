@@ -1,0 +1,92 @@
+{
+    "navbar": {
+        "logo": "diStreaming",
+        "signIn": "Sign In",
+        "language": "English"
+    },
+    "hero": {
+        "title": "Unlimited movies, TV shows, and more",
+        "subtitle": "Plans starting at IDR 54,000. Cancel anytime.",
+        "cta": {
+            "text": "Ready to watch? Enter your email to create or restart your membership.",
+            "email": "Email address",
+            "button": "Get Started"
+        }
+    },
+    "trending": {
+        "title": "Trending Now",
+        "subtitle": "Popular movies and TV shows this week"
+    },
+    "features": {
+        "title": "More Reasons to Join",
+        "tv": {
+            "title": "Enjoy on your TV",
+            "description": "Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more."
+        },
+        "download": {
+            "title": "Download shows to watch offline",
+            "description": "Save your favorites easily and always have something to watch."
+        },
+        "watch": {
+            "title": "Watch everywhere",
+            "description": "Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV."
+        },
+        "kids": {
+            "title": "Create profiles for kids",
+            "description": "Send kids on adventures with their favorite characters in a space made just for them — free with your membership."
+        }
+    },
+    "faq": {
+        "title": "Frequently Asked Questions",
+        "whatIsNetflix": {
+            "question": "What is diStreaming?",
+            "answer": "diStreaming is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices. You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price."
+        },
+        "howMuch": {
+            "question": "How much does diStreaming cost?",
+            "answer": "Watch diStreaming on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from IDR 54,000 to IDR 186,000 a month. No extra costs, no contracts."
+        },
+        "whereWatch": {
+            "question": "Where can I watch?",
+            "answer": "Watch anywhere, anytime. Sign in with your diStreaming account to watch instantly on the web at diStreaming.com from your personal computer or on any internet-connected device that offers the diStreaming app, including smart TVs, smartphones, tablets, streaming media players, and game consoles."
+        },
+        "howCancel": {
+            "question": "How do I cancel?",
+            "answer": "diStreaming is flexible. There are no annoying contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime."
+        },
+        "whatWatch": {
+            "question": "What can I watch on diStreaming?",
+            "answer": "diStreaming has an extensive library of feature films, documentaries, TV shows, anime, award-winning diStreaming originals, and more. Watch as much as you want, anytime you want."
+        },
+        "goodForKids": {
+            "question": "Is diStreaming good for kids?",
+            "answer": "The diStreaming Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and movies in their own space."
+        }
+    },
+    "footer": {
+        "cta": {
+            "text": "Ready to watch? Enter your email to create or restart your membership.",
+            "email": "Email address",
+            "button": "Get Started"
+        },
+        "contact": "Questions? Call 007-803-321-8275",
+        "links": {
+            "faq": "FAQ",
+            "help": "Help Center",
+            "account": "Account",
+            "media": "Media Center",
+            "investor": "Investor Relations",
+            "jobs": "Jobs",
+            "plans": "Ways to Watch",
+            "terms": "Terms of Use",
+            "privacy": "Privacy",
+            "cookies": "Cookie Preferences",
+            "corporate": "Corporate Information",
+            "contact": "Contact Us",
+            "speed": "Speed Test",
+            "legal": "Legal Notices",
+            "originals": "Only on diStreaming"
+        },
+        "copyright": "©diStreaming Indonesia"
+    }
+}

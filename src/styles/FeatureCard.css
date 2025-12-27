@@ -1,0 +1,104 @@
+/* Feature Card Component */
+.feature-card {
+    padding: var(--space-2xl);
+    background: linear-gradient(135deg,
+            rgba(31, 31, 31, 0.6) 0%,
+            rgba(20, 20, 20, 0.8) 100%);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-xl);
+    text-align: center;
+    transition: all var(--transition-base);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.feature-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg,
+            rgba(229, 9, 20, 0.1) 0%,
+            transparent 100%);
+    opacity: 0;
+    transition: opacity var(--transition-base);
+}
+
+.feature-card:hover::before {
+    opacity: 1;
+}
+
+.feature-card:hover {
+    transform: translateY(-8px);
+    border-color: var(--color-primary);
+    box-shadow: 0 10px 30px rgba(229, 9, 20, 0.3);
+}
+
+/* Feature Icon */
+.feature-icon {
+    font-size: 4rem;
+    margin-bottom: var(--space-lg);
+    display: inline-block;
+    transition: transform var(--transition-base);
+}
+
+.feature-card:hover .feature-icon {
+    transform: scale(1.2) rotate(5deg);
+}
+
+/* Feature Title */
+.feature-title {
+    font-size: var(--font-size-2xl);
+    font-weight: var(--font-weight-bold);
+    margin-bottom: var(--space-md);
+    color: var(--color-text-primary);
+}
+
+/* Feature Description */
+.feature-description {
+    font-size: var(--font-size-base);
+    color: var(--color-text-muted);
+    line-height: var(--line-height-relaxed);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .feature-card {
+        padding: var(--space-xl);
+    }
+
+    .feature-icon {
+        font-size: 3rem;
+    }
+
+    .feature-title {
+        font-size: var(--font-size-xl);
+    }
+
+    .feature-description {
+        font-size: var(--font-size-sm);
+    }
+}
+
+@media (max-width: 480px) {
+    .feature-card {
+        padding: var(--space-lg);
+    }
+
+    .feature-icon {
+        font-size: 2.5rem;
+        margin-bottom: var(--space-md);
+    }
+
+    .feature-title {
+        font-size: var(--font-size-lg);
+        margin-bottom: var(--space-sm);
+    }
+
+    .feature-description {
+        font-size: var(--font-size-xs);
+    }
+}

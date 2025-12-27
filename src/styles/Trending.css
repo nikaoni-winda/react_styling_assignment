@@ -1,0 +1,116 @@
+/* Trending Section */
+.trending {
+    padding: var(--space-4xl) var(--space-4xl);
+    background-color: var(--color-bg-primary);
+    position: relative;
+}
+
+.trending-container {
+    max-width: var(--container-2xl);
+    margin: 0 auto;
+}
+
+/* Trending Header */
+.trending-header {
+    padding: 0 var(--space-xl);
+    margin-bottom: var(--space-2xl);
+}
+
+.trending-title {
+    font-size: var(--font-size-4xl);
+    font-weight: var(--font-weight-bold);
+    margin-bottom: var(--space-sm);
+    color: var(--color-text-primary);
+}
+
+.trending-subtitle {
+    font-size: var(--font-size-lg);
+    color: var(--color-text-muted);
+}
+
+.trending-scroll-wrapper {
+    position: relative;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: var(--space-lg) var(--space-xl);
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-bg-tertiary) transparent;
+}
+
+.trending-scroll-wrapper::-webkit-scrollbar {
+    height: 8px;
+}
+
+.trending-scroll-wrapper::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.trending-scroll-wrapper::-webkit-scrollbar-thumb {
+    background: var(--color-bg-tertiary);
+    border-radius: var(--radius-full);
+}
+
+.trending-scroll-wrapper::-webkit-scrollbar-thumb:hover {
+    background: var(--color-border);
+}
+
+/* Trending Cards Container */
+.trending-cards {
+    display: flex;
+    gap: var(--space-3xl);
+    padding-bottom: var(--space-md);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .trending {
+        padding: var(--space-3xl) var(--space-lg);
+    }
+
+    .trending-header {
+        padding: 0 var(--space-lg);
+        margin-bottom: var(--space-xl);
+    }
+
+    .trending-title {
+        font-size: var(--font-size-3xl);
+    }
+
+    .trending-subtitle {
+        font-size: var(--font-size-base);
+    }
+
+    .trending-scroll-wrapper {
+        padding: var(--space-md) var(--space-lg);
+    }
+
+    .trending-cards {
+        gap: var(--space-lg);
+    }
+}
+
+@media (max-width: 480px) {
+    .trending {
+        padding: var(--space-2xl) var(--space-lg);
+    }
+
+    .trending-header {
+        padding: 0 var(--space-md);
+    }
+
+    .trending-title {
+        font-size: var(--font-size-2xl);
+    }
+
+    .trending-subtitle {
+        font-size: var(--font-size-sm);
+    }
+
+    .trending-scroll-wrapper {
+        padding: var(--space-sm) var(--space-md);
+    }
+
+    .trending-cards {
+        gap: var(--space-md);
+    }
+}

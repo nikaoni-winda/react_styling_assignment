@@ -1,0 +1,44 @@
+/* Language Switcher Component */
+.language-switcher {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    padding: var(--space-sm) var(--space-md);
+    background-color: transparent;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    color: var(--color-text-primary);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-medium);
+    cursor: pointer;
+    transition: all var(--transition-base);
+}
+
+.language-switcher:hover {
+    background-color: var(--color-bg-tertiary);
+    border-color: var(--color-text-secondary);
+}
+
+.language-switcher:active {
+    transform: scale(0.95);
+}
+
+.globe-icon {
+    font-size: var(--font-size-lg);
+    line-height: 1;
+}
+
+.language-text {
+    white-space: nowrap;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+    .language-text {
+        display: none;
+    }
+
+    .language-switcher {
+        padding: var(--space-sm);
+    }
+}

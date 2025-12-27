@@ -1,0 +1,71 @@
+/* Movie Card Component */
+.movie-card {
+    position: relative;
+    flex-shrink: 0;
+    width: 180px;
+    cursor: pointer;
+    transition: transform var(--transition-base);
+}
+
+.movie-card:hover {
+    transform: scale(1.15);
+    z-index: 10;
+}
+
+/* Rank Number */
+.movie-rank {
+    position: absolute;
+    bottom: -10px;
+    left: -30px;
+    z-index: 5;
+    font-size: 120px;
+    font-weight: var(--font-weight-bold);
+    color: var(--color-text-secondary);
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.8));
+    line-height: 1;
+    pointer-events: none;
+    opacity: 0.9;
+}
+
+/* Movie Poster */
+.movie-poster {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 2 / 3;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: var(--shadow-lg);
+    transition: box-shadow var(--transition-base);
+}
+
+.movie-card:hover .movie-poster {
+    box-shadow: var(--shadow-xl);
+}
+
+.movie-poster img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+    .movie-card {
+        width: 140px;
+    }
+
+    .movie-rank {
+        font-size: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    .movie-card {
+        width: 100px;
+    }
+
+    .movie-rank {
+        font-size: 60px;
+    }
+}

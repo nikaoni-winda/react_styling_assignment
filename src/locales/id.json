@@ -1,0 +1,92 @@
+{
+    "navbar": {
+        "logo": "diStreaming",
+        "signIn": "Masuk",
+        "language": "Bahasa Indonesia"
+    },
+    "hero": {
+        "title": "Film dan serial TV tanpa batas, dan lebih banyak lagi",
+        "subtitle": "Harga mulai dari Rp54.000. Batalkan kapan pun.",
+        "cta": {
+            "text": "Siap menonton? Masukkan email untuk membuat atau memulai lagi keanggotaanmu.",
+            "email": "Alamat email",
+            "button": "Mulai"
+        }
+    },
+    "trending": {
+        "title": "Sedang Tren Sekarang",
+        "subtitle": "Film dan serial TV yang sedang populer minggu ini"
+    },
+    "features": {
+        "title": "Alasan Lainnya untuk Bergabung",
+        "tv": {
+            "title": "Nikmati di TV-mu",
+            "description": "Tonton di Smart TV, Playstation, Xbox, Chromecast, Apple TV, pemutar Blu-ray, dan banyak lagi."
+        },
+        "download": {
+            "title": "Download serial untuk menontonnya secara offline",
+            "description": "Simpan favoritmu dengan mudah agar selalu ada acara TV dan film yang bisa ditonton."
+        },
+        "watch": {
+            "title": "Tonton di mana pun",
+            "description": "Streaming film dan serial TV tanpa batas di ponsel, tablet, laptop, dan TV-mu."
+        },
+        "kids": {
+            "title": "Buat profil untuk anak",
+            "description": "Kirim anak-anak untuk bertualang bersama karakter favorit di dunia yang dibuat khusus untuk mereka — gratis dengan keanggotaanmu."
+        }
+    },
+    "faq": {
+        "title": "Tanya Jawab Umum",
+        "whatIsNetflix": {
+            "question": "Apa itu diStreaming?",
+            "answer": "diStreaming adalah layanan streaming yang menawarkan berbagai acara TV pemenang penghargaan, film, anime, dokumenter, dan banyak lagi di ribuan perangkat yang terhubung ke internet. Kamu bisa menonton sepuasnya, kapan pun kamu mau, tanpa satu iklan pun – semuanya dengan satu harga bulanan yang murah."
+        },
+        "howMuch": {
+            "question": "Berapa biaya berlangganan diStreaming?",
+            "answer": "Tonton diStreaming di smartphone, tablet, Smart TV, laptop, atau perangkat streaming-mu, semuanya dengan satu harga bulanan tetap. Paket mulai dari Rp54.000 hingga Rp186.000 per bulan. Tanpa biaya ekstra, tanpa kontrak."
+        },
+        "whereWatch": {
+            "question": "Di mana saya bisa menonton diStreaming?",
+            "answer": "Tonton di mana saja, kapan saja. Masuk dengan akun diStreaming-mu untuk menonton langsung di diStreaming.com dari komputer pribadi atau di perangkat apa pun yang terhubung ke internet yang menawarkan aplikasi diStreaming, termasuk Smart TV, smartphone, tablet, pemutar media streaming, dan konsol game."
+        },
+        "howCancel": {
+            "question": "Bagaimana cara membatalkannya?",
+            "answer": "diStreaming fleksibel. Tanpa kontrak menyebalkan dan tanpa komitmen. Kamu dapat dengan mudah membatalkan akunmu secara online dengan dua kali klik. Tanpa biaya pembatalan – mulai atau hentikan akunmu kapan saja."
+        },
+        "whatWatch": {
+            "question": "Apa yang bisa ditonton di diStreaming?",
+            "answer": "diStreaming memiliki pustaka lengkap film panjang, dokumenter, acara TV, anime, original pemenang penghargaan, dan banyak lagi. Tonton sepuasnya, kapan pun kamu mau."
+        },
+        "goodForKids": {
+            "question": "Apakah diStreaming sesuai bagi anak-anak?",
+            "answer": "Pengalaman diStreaming Anak sudah disertakan dalam keanggotaanmu untuk memberikan kontrol orang tua kepada para orang tua sementara anak-anak menikmati acara TV dan film ramah keluarga di ruang mereka sendiri."
+        }
+    },
+    "footer": {
+        "cta": {
+            "text": "Siap menonton? Masukkan email untuk membuat atau memulai lagi keanggotaanmu.",
+            "email": "Alamat email",
+            "button": "Mulai"
+        },
+        "contact": "Ada pertanyaan? Hubungi 007-803-321-8275",
+        "links": {
+            "faq": "Tanya Jawab",
+            "help": "Pusat Bantuan",
+            "account": "Akun",
+            "media": "Pusat Media",
+            "investor": "Hubungan Investor",
+            "jobs": "Lowongan Kerja",
+            "plans": "Cara Menonton",
+            "terms": "Ketentuan Penggunaan",
+            "privacy": "Privasi",
+            "cookies": "Preferensi Cookie",
+            "corporate": "Informasi Perusahaan",
+            "contact": "Hubungi Kami",
+            "speed": "Uji Kecepatan",
+            "legal": "Informasi Legal",
+            "originals": "Hanya di diStreaming"
+        },
+        "copyright": "©diStreaming Indonesia"
+    }
+}
